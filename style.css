@@ -14,7 +14,7 @@
 /* ======= DARK MODE VARIANTE ======= */
 body.dark {
   --background: linear-gradient(to right, #111, #33031f);
-  --container-bg: rgba(20, 20, 20, 0.9);
+  --container-bg: rgba(20, 20, 20, 0.255);
   --text-color: #f1f1f1;
   --secondary-text: #ccc;
   --accent-color: #80bfff;
@@ -138,7 +138,7 @@ ul {
   text-decoration: none;
   border-radius: 50px;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(170, 0, 255, 0.4);
+  box-shadow: 0 4px 10px rgba(170, 0, 255, 0.31);
 }
 
 .button:hover {
