@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Despre mine</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <button class="toggle-btn" onclick="toggleDarkMode()">🌙 / ☀️</button>
+
+
+
+
+  <div class="container">
+    <header data-aos="fade-down">
+      <img src="eu.jpeg" alt="Poza mea" class="profile-pic" />
+      <h1>Kurucz Emil</h1>
+      <p>Ghidul meu personal și profesional, pe scurt.</p>
+    </header>
+
+
+
+    <section data-aos="fade-right">
+      <h2>🧠 Despre mine</h2>
+      <p>Sunt o persoană pasionată de inovație, dezvoltare personală și gândire liberă.</p>
+    </section>
+
+
+    <section data-aos="fade-left">
+      <h2>🛠️ Competențe</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>UI/UX Design</li>
+        <li>Comunicare & coaching</li>
+      </ul>
+    </section>
+    
+
+    <section data-aos="zoom-in">
+      <h2>📬 Contact</h2>
+      <a href="mailto:nadekillyt@gmail.com" class="button">Scrie-mi un email</a>
+    
+      <a href="https://www.linkedin.com/in/nadekill/" class="button" target="_blank">💼 LinkedIn</a>
+
+    </section>
+
+    <a class="button" href="cv.pdf" download>📄 Descarcă CV-ul meu</a>
+
+    <footer data-aos="fade-up">
+      © 2025 Kurucz Emil. Cu drag, din România.
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 1000,
+      easing: "ease-out"
+    });
+  </script>
+</body>
+</html>
