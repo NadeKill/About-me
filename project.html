@@ -9,37 +9,50 @@
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
+  
+  <section>
   <button class="toggle-btn" onclick="toggleDarkMode()">Dark Mode</button>
+  </section>
+
 
   <section>
     <a href="index.html" class="button"> 📁 Înapoi la pagina principală</a>
   </section>
-  <div class="container">
+
+<div class="container">
 
 <body>
-  <header>
+  <header data-aos="fade-down">
     <h1>Proiectele Personale</h1>
     <p>Aici puteti vedea unele proiecte facute de mine.</p>
   </header>
 
-  <section>
+  <section data-aos="fade-right">
     <h2>📝 Additional Information</h2>
     <p>Aici poți găsi informații suplimentare despre mine, proiectele mele și alte activități interesante.</p>
   </section>
 
-  <section>
+  <section data-aos="fade-left">
     <h2>📂 Proiecte</h2>
     <ul>
-      <li>Proiect 1: Descrierea proiectului 1.</li>
+      <li>Proiect 1: NDK Community.</li>
       <li>Proiect 2: Descrierea proiectului 2.</li>
       <li>Proiect 3: Descrierea proiectului 3.</li>
     </ul>
   </section>
 
-  <footer>
+  <footer data-aos="fade-up">
     <p>© 2025 Kurucz Emil. Cu drag, din România.</p>
   </footer>
 
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="script.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 1000,
+      easing: "ease-out"
+    });
+  </script>
 </body>
 </html>
