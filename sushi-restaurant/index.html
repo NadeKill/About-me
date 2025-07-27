@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sushi | Restaurant Japonez</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🍣 Sushi</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#acasa">Acasă</a></li>
+        <li><a href="#meniu">Meniu</a></li>
+        <li><a href="#rezervari">Rezervări</a></li>
+        <li><a href="#comenzi">Comenzi</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="acasa" class="hero">
+    <div class="hero-content">
+      <h1>Bine ai venit la Sushi</h1>
+      <p>Descoperă gustul autentic japonez în inima orașului tău</p>
+      <a href="#rezervari" class="btn">Rezervă acum</a>
+    </div>
+  </section>
+
+  <section id="meniu" class="section fade-in">
+    <h2>Meniul Nostru</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Sashimi de Somon</h3>
+        <p>Somon proaspăt tăiat fin</p>
+        <span>45 RON</span>
+      </div>
+      <div class="card">
+        <h3>California Roll</h3>
+        <p>Crab, avocado, castravete</p>
+        <span>34 RON</span>
+      </div>
+      <div class="card">
+        <h3>Tempura Ebi</h3>
+        <p>Creveți crocanți în tempura</p>
+        <span>39 RON</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="rezervari" class="section fade-in">
+    <h2>Rezervă o masă</h2>
+    <form id="rezervareForm">
+      <input type="text" placeholder="Nume complet" required />
+      <input type="email" placeholder="Email" required />
+      <input type="tel" placeholder="Telefon" required />
+      <input type="date" required />
+      <input type="time" required />
+      <input type="number" placeholder="Număr persoane" min="1" required />
+      <button type="submit">Trimite Rezervarea</button>
+    </form>
+  </section>
+
+  <section id="comenzi" class="section fade-in">
+    <h2>Comandă Online</h2>
+    <form id="comandaForm">
+      <select required>
+        <option value="">Selectează preparatul</option>
+        <option>Sushi Box 10 pcs</option>
+        <option>Tempura Mix</option>
+        <option>Uramaki Spicy</option>
+      </select>
+      <input type="number" placeholder="Cantitate" min="1" required />
+      <input type="text" placeholder="Adresă livrare" required />
+      <input type="tel" placeholder="Telefon" required />
+      <button type="submit">Trimite Comanda</button>
+    </form>
+  </section>
+
+  <section id="contact" class="section fade-in">
+    <h2>Contact</h2>
+    <p>📍 Str. Japoniei 5, Alba Iulia</p>
+    <p>📞 0744 123 456</p>
+    <p>✉️ contact@sushi-restaurant.ro</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sushi Restaurant. Toate drepturile rezervate.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
