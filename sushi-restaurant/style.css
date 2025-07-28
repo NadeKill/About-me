@@ -51,14 +51,28 @@ body {
 }
 
 .hero {
-  background: url('https://images.unsplash.com/photo-1579880715434-68133d96a9db') center/cover no-repeat;
+  position: relative;
   height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: white;
-  position: relative;
+  overflow: hidden; /* adaugă overflow hidden */
+  /* elimină background-ul imagine! */
+}
+
+.hero-bg-video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.5;
+  pointer-events: none; /* nu permite click pe video */
 }
 
 .hero::after {
@@ -68,15 +82,6 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.hero-bg-video {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
-  opacity: 0.5; /* ajustează transparența după preferință */
-}
 
 .hero-content {
   position: relative;
@@ -229,9 +234,7 @@ footer {
     font-size: 2.2rem;
   }
   .nav-links {
-    flex-direction: column;
-    gap: 0.8rem;
-    padding-top: 1rem;
+    display: none;
   }
   .navbar {
     flex-direction: column;
