@@ -107,5 +107,11 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var today = new Date().toISOString().split('T')[0];
+    document.querySelector('#rezervareForm input[type="date"]').setAttribute('min', today);
+  });
+  </script>
 </body>
 </html>
