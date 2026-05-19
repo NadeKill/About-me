@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kizuna Sushi House | Premium Restaurant Website Template</title>
+    <meta
+      name="description"
+      content="A professional, responsive sushi restaurant website template with menu filtering, reservation flow, and premium editorial design."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Kizuna Sushi House home">
+        <span class="brand-mark">季</span>
+        <span>
+          <strong>Kizuna</strong>
+          <small>Sushi House</small>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#menu">Menu</a>
+        <a href="#omakase">Omakase</a>
+        <a href="#private">Private Dining</a>
+        <a href="#reserve">Reserve</a>
+      </nav>
+      <a class="header-cta" href="#reserve">Book a Table</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-menu" data-mobile-nav aria-label="Mobile navigation">
+      <a href="#menu">Menu</a>
+      <a href="#omakase">Omakase</a>
+      <a href="#private">Private Dining</a>
+      <a href="#reserve">Reserve</a>
+    </nav>
+
+    <main id="top">
+      <section class="hero section-dark">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="fine-print">Tokyo technique, coastal ingredients, intimate service</p>
+          <h1>Premium sushi dining shaped for memorable evenings.</h1>
+          <p class="hero-copy">
+            A refined website model for sushi restaurants, omakase counters, and boutique dining rooms ready to present a polished online brand.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#reserve">Reserve Now</a>
+            <a class="button secondary" href="#menu">View Menu</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Tonight's tasting">
+          <span>Tonight</span>
+          <strong>12-course omakase</strong>
+          <p>Bluefin akami, Hokkaido scallop, yuzu kosho, hand-fired tamago.</p>
+        </aside>
+      </section>
+
+      <section class="intro">
+        <div>
+          <p class="section-label">Designed to sell the experience</p>
+          <h2>A restaurant website model that feels ready for a real opening night.</h2>
+        </div>
+        <div class="intro-copy">
+          <p>
+            Kizuna is built as a premium template with clear conversion paths, editorial food presentation, elegant menu cards, and reservation-ready details.
+          </p>
+          <dl class="stats">
+            <div>
+              <dt>5</dt>
+              <dd>Core page sections</dd>
+            </div>
+            <div>
+              <dt>3</dt>
+              <dd>Menu filters</dd>
+            </div>
+            <div>
+              <dt>100%</dt>
+              <dd>Responsive layout</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="feature-grid" aria-label="Restaurant highlights">
+        <article>
+          <span class="feature-number">01</span>
+          <h3>Omakase Story</h3>
+          <p>Position the restaurant around craft, chef authority, and seasonal tasting experiences.</p>
+        </article>
+        <article>
+          <span class="feature-number">02</span>
+          <h3>Menu Showcase</h3>
+          <p>Sell signature rolls, nigiri, and tasting sets with polished pricing and category filters.</p>
+        </article>
+        <article>
+          <span class="feature-number">03</span>
+          <h3>Reservation Path</h3>
+          <p>Guide guests from appetite to action with a refined booking form and confirmation state.</p>
+        </article>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="section-heading">
+          <p class="section-label">Signature menu</p>
+          <h2>Curated dishes with clean, premium presentation.</h2>
+        </div>
+        <div class="menu-controls" role="group" aria-label="Filter menu items">
+          <button class="filter-button active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="nigiri">Nigiri</button>
+          <button class="filter-button" type="button" data-filter="rolls">Rolls</button>
+          <button class="filter-button" type="button" data-filter="tasting">Tasting</button>
+        </div>
+        <div class="menu-list" data-menu-list>
+          <article class="dish-card" data-category="nigiri">
+            <img src="assets/nigiri.svg" alt="Assorted nigiri on a ceramic plate" />
+            <div>
+              <span>Nigiri</span>
+              <h3>Bluefin Akami Set</h3>
+              <p>Lean tuna, brushed nikiri, warm seasoned rice, fresh wasabi.</p>
+            </div>
+            <strong>$32</strong>
+          </article>
+          <article class="dish-card" data-category="rolls">
+            <img src="assets/rolls.svg" alt="Sushi rolls arranged with garnish" />
+            <div>
+              <span>Rolls</span>
+              <h3>Kizuna Dragon Roll</h3>
+              <p>Tempura shrimp, avocado, eel glaze, toasted sesame.</p>
+            </div>
+            <strong>$24</strong>
+          </article>
+          <article class="dish-card" data-category="tasting">
+            <img src="assets/chef.svg" alt="Chef preparing sushi at a counter" />
+            <div>
+              <span>Tasting</span>
+              <h3>Seasonal Omakase</h3>
+              <p>Twelve guided courses with sake pairing available nightly.</p>
+            </div>
+            <strong>$118</strong>
+          </article>
+          <article class="dish-card" data-category="nigiri">
+            <img src="assets/salmon.svg" alt="Fresh salmon sushi with garnish" />
+            <div>
+              <span>Nigiri</span>
+              <h3>Ora King Salmon</h3>
+              <p>Silky salmon, citrus salt, shiso, and a light ponzu finish.</p>
+            </div>
+            <strong>$28</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="omakase section-dark" id="omakase">
+        <div class="omakase-image"></div>
+        <div class="omakase-copy">
+          <p class="section-label">Chef-led counter</p>
+          <h2>Every course is paced, explained, and served at its best temperature.</h2>
+          <p>
+            The template balances cinematic food imagery with practical restaurant details: seating times, tasting format, dietary notes, and a confident call to book.
+          </p>
+          <ul class="check-list">
+            <li>Two nightly seatings at 6:00 PM and 8:30 PM</li>
+            <li>Optional sake pairing and non-alcoholic pairings</li>
+            <li>Private chef counter buyouts for up to 14 guests</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="private" id="private">
+        <div class="section-heading">
+          <p class="section-label">Events and private dining</p>
+          <h2>An elegant section for celebrations, tastings, and corporate dinners.</h2>
+        </div>
+        <div class="private-layout">
+          <article class="private-panel">
+            <h3>Chef Counter Buyout</h3>
+            <p>Intimate tasting experience with a custom menu, welcome sake, and dedicated service.</p>
+            <span>Up to 14 guests</span>
+          </article>
+          <article class="private-panel dark-panel">
+            <h3>Dining Room Events</h3>
+            <p>Full-service dinners with premium sushi platters, hot dishes, and curated beverage pairing.</p>
+            <span>Up to 48 guests</span>
+          </article>
+          <article class="private-panel image-panel" aria-label="Sushi dining room atmosphere"></article>
+        </div>
+      </section>
+
+      <section class="reservation section-dark" id="reserve">
+        <div class="reservation-copy">
+          <p class="section-label">Reservations</p>
+          <h2>Turn interest into bookings with a calm, polished form.</h2>
+          <p>
+            This demo includes a working front-end confirmation state so potential buyers can feel the guest journey immediately.
+          </p>
+          <div class="contact-strip">
+            <span>Open Tue-Sun</span>
+            <span>5:00 PM - 11:00 PM</span>
+            <span>hello@kizunasushi.com</span>
+          </div>
+        </div>
+        <form class="reservation-form" data-reservation-form>
+          <label>
+            Name
+            <input name="name" type="text" placeholder="Your name" required />
+          </label>
+          <label>
+            Date
+            <input name="date" type="date" required />
+          </label>
+          <label>
+            Guests
+            <select name="guests" required>
+              <option value="">Select guests</option>
+              <option>2 guests</option>
+              <option>4 guests</option>
+              <option>6 guests</option>
+              <option>Private inquiry</option>
+            </select>
+          </label>
+          <label>
+            Experience
+            <select name="experience" required>
+              <option value="">Choose experience</option>
+              <option>Omakase counter</option>
+              <option>Main dining room</option>
+              <option>Private event</option>
+            </select>
+          </label>
+          <button class="button primary full" type="submit">Request Reservation</button>
+          <p class="form-message" data-form-message role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="brand footer-brand">
+        <span class="brand-mark">季</span>
+        <span>
+          <strong>Kizuna</strong>
+          <small>Sushi House</small>
+        </span>
+      </div>
+      <p>Premium sushi restaurant website model for sale. Built for easy customization and fast preview.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
