@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Private sushi dining room">
+  <rect width="900" height="620" fill="#171514"/>
+  <rect x="80" y="80" width="740" height="280" rx="6" fill="#211d1a"/>
+  <path d="M140 120h620v32H140zm0 70h470v18H140zm0 45h550v18H140z" fill="#d1a85e" opacity=".24"/>
+  <circle cx="705" cy="175" r="74" fill="none" stroke="#caa766" stroke-width="4" opacity=".45"/>
+  <circle cx="705" cy="175" r="38" fill="none" stroke="#caa766" stroke-width="4" opacity=".45"/>
+  <rect x="130" y="400" width="640" height="52" rx="26" fill="#caa766"/>
+  <ellipse cx="450" cy="452" rx="330" ry="72" fill="#0f0e0d"/>
+  <g fill="#f4ead8">
+    <rect x="240" y="386" width="92" height="38" rx="18"/>
+    <rect x="390" y="382" width="116" height="42" rx="20"/>
+    <rect x="560" y="386" width="92" height="38" rx="18"/>
+  </g>
+  <g fill="#be2f38">
+    <ellipse cx="286" cy="386" rx="45" ry="18"/>
+    <ellipse cx="448" cy="382" rx="56" ry="20"/>
+    <ellipse cx="606" cy="386" rx="45" ry="18"/>
+  </g>
+</svg>

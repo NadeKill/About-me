@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Chef preparing sushi">
+  <rect width="900" height="620" fill="#1a1715"/>
+  <rect x="0" y="400" width="900" height="220" fill="#0f0e0d"/>
+  <circle cx="460" cy="190" r="78" fill="#d7b18a"/>
+  <path d="M335 382c28-103 77-154 126-154 58 0 103 54 132 154z" fill="#f2eadb"/>
+  <path d="M356 382h214l-31 238H387z" fill="#ebe4d7"/>
+  <path d="M401 160c-7-71 35-112 98-92 44 14 56 50 43 96-53-22-98-24-141-4z" fill="#111"/>
+  <rect x="280" y="386" width="360" height="40" rx="20" fill="#caa766"/>
+  <ellipse cx="455" cy="432" rx="238" ry="42" fill="#10100f"/>
+  <g transform="translate(312 342)">
+    <rect x="0" y="58" width="110" height="46" rx="18" fill="#fff2db"/>
+    <path d="M13 42c32-21 76-21 98 4 9 10 0 25-14 29-27 7-55 6-82-2-16-4-16-21-2-31z" fill="#c64048"/>
+  </g>
+  <g transform="translate(470 335) rotate(8)">
+    <rect x="0" y="58" width="110" height="46" rx="18" fill="#fff2db"/>
+    <path d="M13 42c32-21 76-21 98 4 9 10 0 25-14 29-27 7-55 6-82-2-16-4-16-21-2-31z" fill="#ef8c62"/>
+  </g>
+</svg>
